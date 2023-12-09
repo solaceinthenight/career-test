@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
   return (
     <footer style={{ marginTop: "2rem", textAlign: "center" }}>
       <p>
-        Created by <span onClick={handleClick}>Jacob Lai</span>
+        Created by <span onClick={handleClick}>solaceinthenight</span>
       </p>
     </footer>
   );
