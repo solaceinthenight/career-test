@@ -1,0 +1,572 @@
+[
+  {
+    "id": 1,
+    "question": "Do you enjoy fixing things around the house and working on practical, hands-on projects, or do you prefer engaging in abstract thinking and theoretical discussions?",
+    "option1": "Realistic",
+    "option2": "Investigative"
+  },
+  {
+    "id": 2,
+    "question": "Would you say you value directness and prefer to communicate in a straightforward and frank manner, or do you often use diplomacy and subtlety in your communication?",
+    "option1": "Enterprising",
+    "option2": "Social"
+  },
+  {
+    "id": 3,
+    "question": "Are you interested in understanding how machines work and feel confident using tools to build or repair mechanical devices, or do you prefer working with concepts and ideas rather than tangible tools?",
+    "option1": "Realistic",
+    "option2": "Artistic"
+  },
+  {
+    "id": 4,
+    "question": "Do you prioritize stability and consistency in your work environment with structured tasks and predictable routines, or do you thrive in environments that are dynamic and unpredictable?",
+    "option1": "Conventional",
+    "option2": "Artistic"
+  },
+  {
+    "id": 5,
+    "question": "When faced with complex problems, do you prefer to work with concrete information and real-world data, or do you enjoy exploring abstract theories and imaginative solutions?",
+    "option1": "Conventional",
+    "option2": "Investigative"
+  },
+  {
+    "id": 6,
+    "question": "Would you describe yourself as someone who is typically reserved and prefers working independently or with a small group rather than in large social gatherings, or do you seek out frequent social interaction and enjoy the energy of large groups?",
+    "option1": "Investigative",
+    "option2": "Social"
+  },
+  {
+    "id": 7,
+    "question": "Can you easily maintain self-control and composure in challenging situations, or do you find that your emotions can sometimes get the best of you in high-pressure environments?",
+    "option1": "Conventional",
+    "option2": "Artistic"
+  },
+  {
+    "id": 8,
+    "question": "Do you thrive on autonomy and often prefer to work on tasks by yourself, relying on your own decision-making, or do you prefer collaborative environments where decision-making is shared?",
+    "option1": "Realistic",
+    "option2": "Social"
+  },
+  {
+    "id": 9,
+    "question": "Are you driven by ambitious goals and the desire to achieve a high level of success or leadership in your career, or are you more content with personal satisfaction and work-life balance?",
+    "option1": "Enterprising",
+    "option2": "Social"
+  },
+  {
+    "id": 10,
+    "question": "Do you enjoy creating and following systematic processes in organized and methodical work environments, or do you prefer flexibility and adaptability in managing tasks?",
+    "option1": "Conventional",
+    "option2": "Artistic"
+  },
+  {
+    "id": 11,
+    "question": "Would you rather fix electrical things and ensure they work properly, or do you prefer to solve complicated electrical problems that require analytical thinking?",
+    "option1": "Realistic",
+    "option2": "Investigative"
+  },
+  {
+    "id": 12,
+    "question": "Do you enjoy the hands-on task of pitching a tent and preparing a campsite, or do you get more satisfaction from strategizing and playing a sport?",
+    "option1": "Realistic",
+    "option2": "Enterprising"
+  },
+  {
+    "id": 13,
+    "question": "Would you prefer to read and interpret a blueprint, executing the detailed plan it represents, or is planting and nurturing a garden more appealing to you?",
+    "option1": "Realistic",
+    "option2": "Artistic"
+  },
+  {
+    "id": 14,
+    "question": "Do you take pleasure in operating tools and machinery to accomplish a task, or would you rather tinker with machines or vehicles to understand and repair them?",
+    "option1": "Realistic",
+    "option2": "Investigative"
+  },
+  {
+    "id": 15,
+    "question": "Would you choose a job that has you working outdoors in various elements, or do you find being physically active and engaging in sports or physical exercise more rewarding?",
+    "option1": "Realistic",
+    "option2": "Conventional"
+  },
+  {
+    "id": 16,
+    "question": "Is using your hands to build and create structures or objects something you value, or do you have more interest in tending to or training animals?",
+    "option1": "Realistic",
+    "option2": "Social"
+  },
+  {
+    "id": 17,
+    "question": "Would you prefer to work on repairing and maintaining electronic equipment, or does the idea of upgrading and programming such equipment to improve its functionality resonate more with you?",
+    "option1": "Realistic",
+    "option2": "Investigative"
+  },
+  {
+    "id": 18,
+    "question": "Do you find gratification in exploring and understanding complex issues more than following structured routines?",
+    "option1": "Investigative",
+    "option2": "Conventional"
+  },
+  {
+    "id": 19,
+    "question": "Do you focus on noticing details others might miss over seeking out opportunities to interact and assist people?",
+    "option1": "Investigative",
+    "option2": "Social"
+  },
+  {
+    "id": 20,
+    "question": "Do you enjoy scholarly pursuits and studying more than influencing others through leadership or sales activities?",
+    "option1": "Investigative",
+    "option2": "Enterprising"
+  },
+  {
+    "id": 21,
+    "question": "Do you prefer making decisions based on detailed analysis, rather than prioritizing creativity in your work?",
+    "option1": "Investigative",
+    "option2": "Artistic"
+  },
+  {
+    "id": 22,
+    "question": "Are you more driven by a quest for knowledge and independent thinking than performing hands-on, practical tasks?",
+    "option1": "Investigative",
+    "option2": "Realistic"
+  },
+  {
+    "id": 23,
+    "question": "Is solving complex issues using logic more stimulating to you than handling work with clear, step-by-step procedures?",
+    "option1": "Investigative",
+    "option2": "Conventional"
+  },
+  {
+    "id": 24,
+    "question": "Are you eager to seek answers and comprehend how things work, instead of dedicating your energy to organizational and administrative details?",
+    "option1": "Investigative",
+    "option2": "Conventional"
+  },
+  {
+    "id": 25,
+    "question": "Does the ability to think abstractly appeal to you more than participating in activities that produce concrete and tangible results?",
+    "option1": "Investigative",
+    "option2": "Realistic"
+  },
+  {
+    "id": 26,
+    "question": "Do you enjoy challenges that involve numerical thinking and solving math problems over managing peoples' issues?",
+    "option1": "Investigative",
+    "option2": "Social"
+  },
+  {
+    "id": 27,
+    "question": "Do you thrive on applying scientific theories to real-world scenarios more than engaging in expressive artistic creation?",
+    "option1": "Investigative",
+    "option2": "Artistic"
+  },
+  {
+    "id": 28,
+    "question": "Is performing complex calculations a satisfying task for you, as opposed to applying yourself in a sales or negotiation context?",
+    "option1": "Investigative",
+    "option2": "Enterprising"
+  },
+  {
+    "id": 29,
+    "question": "Would you rather discover things that are not immediately apparent using tools like microscopes or computers than work on tasks that allow you to express care and compassion?",
+    "option1": "Investigative",
+    "option2": "Social"
+  },
+  {
+    "id": 30,
+    "question": "Does the use of theoretical knowledge to make informed conclusions resonate with you more than the fulfillment gained from seeing immediate, practical results?",
+    "option1": "Investigative",
+    "option2": "Realistic"
+  },
+  {
+    "id": 31,
+    "question": "Do you find independent work on scholarly pursuits to be more compelling than tasks that offer immediate physical activity and hands-on interaction?",
+    "option1": "Investigative",
+    "option2": "Realistic"
+  },
+  {
+    "id": 32,
+    "question": "Is the idea of performing lab experiments and leading to new discoveries more appealing to you than conventional business and administrative tasks?",
+    "option1": "Investigative",
+    "option2": "Conventional"
+  },
+  {
+    "id": 33,
+    "question": "Do you feel more drawn to theorizing and envisioning possibilities than implementing predefined protocols and routines?",
+    "option1": "Investigative",
+    "option2": "Conventional"
+  },
+  {
+    "id": 34,
+    "question": "Is delving deep into subjects that fascinate you through research more satisfying than coordinating people to work towards a common goal?",
+    "option1": "Investigative",
+    "option2": "Enterprising"
+  },
+  {
+    "id": 35,
+    "question": "Do intellectual challenges that push you to think harder attract you more than tasks with a clear set of rules and expectations?",
+    "option1": "Investigative",
+    "option2": "Conventional"
+  },
+  {
+    "id": 36,
+    "question": "Do you prefer using your imagination to create and innovate rather than dealing with practical, routine tasks?",
+    "option1": "Artistic",
+    "option2": "Realistic"
+  },
+  {
+    "id": 37,
+    "question": "Would you rather express your emotions through artistic ventures than analyze data or information?",
+    "option1": "Artistic",
+    "option2": "Conventional"
+  },
+  {
+    "id": 38,
+    "question": "Do you seek independence and originality in your work over a structured environment with clear rules?",
+    "option1": "Artistic",
+    "option2": "Conventional"
+  },
+  {
+    "id": 39,
+    "question": "Is expressing yourself and your unique vision more fulfilling than helping others and working within a community?",
+    "option1": "Artistic",
+    "option2": "Social"
+  },
+  {
+    "id": 40,
+    "question": "Do you find introspection leads to creativity and innovation, contrasting with a desire to persuade or lead others?",
+    "option1": "Artistic",
+    "option2": "Enterprising"
+  },
+  {
+    "id": 41,
+    "question": "Is your approach to work and life often impulsive and sensitive, preferring the abstract over the logical and concrete?",
+    "option1": "Artistic",
+    "option2": "Investigative"
+  },
+  {
+    "id": 42,
+    "question": "Would you describe yourself as courageous and complicated, drawn to the arts over engaging in scientific or technical pursuits?",
+    "option1": "Artistic",
+    "option2": "Investigative"
+  },
+  {
+    "id": 43,
+    "question": "Are you more committed to living by your ideals and nonconforming principles than conforming to conventional standards of achievement?",
+    "option1": "Artistic",
+    "option2": "Conventional"
+  },
+  {
+    "id": 44,
+    "question": "Do you enjoy sketching, drawing, or painting as a form of personal expression rather than performing structured, repetitive tasks?",
+    "option1": "Artistic",
+    "option2": "Realistic"
+  },
+  {
+    "id": 45,
+    "question": "Do you have a passion for playing a musical instrument, valuing musical expression over the routine of daily clerical tasks?",
+    "option1": "Artistic",
+    "option2": "Conventional"
+  },
+  {
+    "id": 46,
+    "question": "Does the act of writing stories, poetry, or music feel more integral to your identity than following tried-and-true methods?",
+    "option1": "Artistic",
+    "option2": "Conventional"
+  },
+  {
+    "id": 47,
+    "question": "Do you find more joy in singing, acting, or dancing than in working with machines or tools?",
+    "option1": "Artistic",
+    "option2": "Realistic"
+  },
+  {
+    "id": 48,
+    "question": "Would you prefer to design fashions or interiors, expressing your creative vision, over analyzing numerical data or working with financials?",
+    "option1": "Artistic",
+    "option2": "Conventional"
+  },
+  {
+    "id": 49,
+    "question": "Do you appreciate attending concerts, theatre, and art exhibits over engaging in activities that require meticulous attention to detail?",
+    "option1": "Artistic",
+    "option2": "Conventional"
+  },
+  {
+    "id": 50,
+    "question": "Is reading fiction, plays, and poetry a significant part of your life, more so than engaging in persuasive sales or business negotiations?",
+    "option1": "Artistic",
+    "option2": "Enterprising"
+  },
+  {
+    "id": 51,
+    "question": "Would you rather spend your free time working on crafts and photography than on physical, outdoor activities or manual labor?",
+    "option1": "Artistic",
+    "option2": "Realistic"
+  },
+  {
+    "id": 52,
+    "question": "Is dealing with ambiguous ideas and concepts more appealing to you than tasks where helping and caring for others is the focus?",
+    "option1": "Artistic",
+    "option2": "Social"
+  },
+  {
+    "id": 53,
+    "question": "Do you take pleasure in interacting with others and being friendly, more than working with data or machines?",
+    "option1": "Social",
+    "option2": "Realistic"
+  },
+  {
+    "id": 54,
+    "question": "Would you rather assist others with kindness and generosity than prioritize making sales or pursuing business goals?",
+    "option1": "Social",
+    "option2": "Enterprising"
+  },
+  {
+    "id": 55,
+    "question": "Is living by idealistic principles and demonstrating understanding toward others more important to you than completing tasks on your own?",
+    "option1": "Social",
+    "option2": "Conventional"
+  },
+  {
+    "id": 56,
+    "question": "Do you find being cooperative and responsible in teamwork settings more fulfilling than focusing on analytical problem-solving?",
+    "option1": "Social",
+    "option2": "Investigative"
+  },
+  {
+    "id": 57,
+    "question": "Would you describe yourself as patient and forgiving, oriented towards caring for others more than self-expression through art?",
+    "option1": "Social",
+    "option2": "Artistic"
+  },
+  {
+    "id": 58,
+    "question": "Do you enjoy the responsibility of teaching or training others, instead of immersing yourself in creative or mechanical work?",
+    "option1": "Social",
+    "option2": "Artistic"
+  },
+  {
+    "id": 59,
+    "question": "Is expressing yourself clearly to facilitate communication and understanding more satisfying than working with numbers or systems?",
+    "option1": "Social",
+    "option2": "Conventional"
+  },
+  {
+    "id": 60,
+    "question": "Do you thrive when leading group discussions and guiding others more than conducting experiments or exploring theories?",
+    "option1": "Social",
+    "option2": "Investigative"
+  },
+  {
+    "id": 61,
+    "question": "Would you prefer to mediate disputes and help resolve conflicts over engaging in competitive or individualistic pursuits?",
+    "option1": "Social",
+    "option2": "Enterprising"
+  },
+  {
+    "id": 62,
+    "question": "Is supervising activities and coordinating with others more appealing to you than focusing on task-oriented jobs that require precision?",
+    "option1": "Social",
+    "option2": "Realistic"
+  },
+  {
+    "id": 63,
+    "question": "Do you enjoy group work and cooperate well with others more than creating independent projects or working solo?",
+    "option1": "Social",
+    "option2": "Investigative"
+  },
+  {
+    "id": 64,
+    "question": "Is helping people with their problems a compelling motivation for you in your work life, as opposed to seeking out novel or unconventional solutions?",
+    "option1": "Social",
+    "option2": "Artistic"
+  },
+  {
+    "id": 65,
+    "question": "Do you feel driven to do volunteer work and serve communities, finding more satisfaction in this than in strictly intellectual pursuits?",
+    "option1": "Social",
+    "option2": "Investigative"
+  },
+  {
+    "id": 66,
+    "question": "Does engaging with and supporting young people bring you joy, more so than tackling bureaucratic or administrative tasks?",
+    "option1": "Social",
+    "option2": "Conventional"
+  },
+  {
+    "id": 67,
+    "question": "Is providing service to others, and ensuring their well-being, more in line with your values than achieving personal creative success?",
+    "option1": "Social",
+    "option2": "Artistic"
+  },
+  {
+    "id": 68,
+    "question": "Do you prefer taking initiative on projects and being self-confident over meticulously analyzing data or details?",
+    "option1": "Enterprising",
+    "option2": "Conventional"
+  },
+  {
+    "id": 69,
+    "question": "Would you rather persuade people with your assertiveness and energy than work with machines or physical tools?",
+    "option1": "Enterprising",
+    "option2": "Realistic"
+  },
+  {
+    "id": 70,
+    "question": "Is being adventurous and spontaneous in achieving ambitious goals more compelling to you than exploring abstract theories?",
+    "option1": "Enterprising",
+    "option2": "Investigative"
+  },
+  {
+    "id": 71,
+    "question": "Do you enjoy being popular and talkative, often taking leadership roles more than engaging in solitary artistic work?",
+    "option1": "Enterprising",
+    "option2": "Artistic"
+  },
+  {
+    "id": 72,
+    "question": "Are you more drawn to convincing others and selling ideas or products than caring individually for other people's needs?",
+    "option1": "Enterprising",
+    "option2": "Social"
+  },
+  {
+    "id": 73,
+    "question": "Does giving talks or speeches and expressing your ideas publicly appeal to you more than hands-on tasks or technical work?",
+    "option1": "Enterprising",
+    "option2": "Realistic"
+  },
+  {
+    "id": 74,
+    "question": "Do you excel at organizing activities and leading groups, finding more satisfaction in that than in research or extensive writing?",
+    "option1": "Enterprising",
+    "option2": "Investigative"
+  },
+  {
+    "id": 75,
+    "question": "Is making decisions and exerting influence an integral part of your leadership style, as opposed to performing routine administrative tasks?",
+    "option1": "Enterprising",
+    "option2": "Conventional"
+  },
+  {
+    "id": 76,
+    "question": "Would you prefer campaigning politically and being in the public eye to creating artistic works or engaging in deep self-expression?",
+    "option1": "Enterprising",
+    "option2": "Artistic"
+  },
+  {
+    "id": 77,
+    "question": "Are you inclined to start your own business and be entrepreneurial, rather than focusing on physical labor or mechanical problem-solving?",
+    "option1": "Enterprising",
+    "option2": "Realistic"
+  },
+  {
+    "id": 78,
+    "question": "Does the prospect of achieving power or status motivate you to work hard and aspire for leadership positions over delving into scientific inquiries or discoveries?",
+    "option1": "Enterprising",
+    "option2": "Investigative"
+  },
+  {
+    "id": 79,
+    "question": "Is meeting important people and networking to advance your goals more appealing to you than maintaining detailed records or systematizing data?",
+    "option1": "Enterprising",
+    "option2": "Conventional"
+  },
+  {
+    "id": 80,
+    "question": "Do you thrive on extroversion and optimism when leading groups, instead of dedicating yourself to personal caregiving or community service?",
+    "option1": "Enterprising",
+    "option2": "Social"
+  },
+  {
+    "id": 81,
+    "question": "Do you prefer being well-organized and methodical in your work over having to frequently adapt to new and unexpected changes?",
+    "option1": "Conventional",
+    "option2": "Artistic"
+  },
+  {
+    "id": 82,
+    "question": "Is working with numbers and being accurate more satisfying for you than engaging in care-oriented interactions with people?",
+    "option1": "Conventional",
+    "option2": "Social"
+  },
+  {
+    "id": 83,
+    "question": "Would you rather follow a structured system and perform tasks efficiently than lead teams or initiate projects?",
+    "option1": "Conventional",
+    "option2": "Enterprising"
+  },
+  {
+    "id": 84,
+    "question": "Do you value being conscientious and conforming to established guidelines more than exploring new ideas and creative solutions?",
+    "option1": "Conventional",
+    "option2": "Investigative"
+  },
+  {
+    "id": 85,
+    "question": "Is practicality and a thrifty approach to problem-solving a strength of yours rather than regularly engaging in expressive and imaginative work?",
+    "option1": "Conventional",
+    "option2": "Artistic"
+  },
+  {
+    "id": 86,
+    "question": "Are you drawn to systematic and organized work situations, finding more pleasure in it than in tasks requiring physical strength or outdoor activity?",
+    "option1": "Conventional",
+    "option2": "Realistic"
+  },
+  {
+    "id": 87,
+    "question": "Would you prefer engaging in polite and structured communication more than adventurous or risky business ventures?",
+    "option1": "Conventional",
+    "option2": "Enterprising"
+  },
+  {
+    "id": 88,
+    "question": "Do you aspire to be efficient and persistent in accomplishing tasks with little need for oversight?",
+    "option1": "Conventional",
+    "option2": "Artistic"
+  },
+  {
+    "id": 89,
+    "question": "Is being obedient and respecting authority something that comes naturally to you, rather than questioning or challenging the status quo?",
+    "option1": "Conventional",
+    "option2": "Investigative"
+  },
+  {
+    "id": 90,
+    "question": "Do you find satisfaction in working well within a system and following procedures, as opposed to taking the lead in brainstorming sessions or strategic planning meetings?",
+    "option1": "Conventional",
+    "option2": "Enterprising"
+  },
+  {
+    "id": 91,
+    "question": "Would you rather manage a lot of paperwork in a short time, using routine methods, than perform hands-on tasks or engage in physical construction?",
+    "option1": "Conventional",
+    "option2": "Realistic"
+  },
+  {
+    "id": 92,
+    "question": "Is keeping accurate records and being responsible for details an area in which you excel, as opposed to leading group discussions or presentations?",
+    "option1": "Conventional",
+    "option2": "Social"
+  },
+  {
+    "id": 93,
+    "question": "Does the use of computer terminals and data processing equipment to manage information appeal to you more than crafting artworks or performing?",
+    "option1": "Conventional",
+    "option2": "Artistic"
+  },
+  {
+    "id": 94,
+    "question": "Do you enjoy typing or taking shorthand as a daily activity more than exploring and discovering new ideas and theories?",
+    "option1": "Conventional",
+    "option2": "Investigative"
+  },
+  {
+    "id": 95,
+    "question": "Is being responsible for detailed work, such as collection or organization of data, more appealing to you than persuading others or making sales?",
+    "option1": "Conventional",
+    "option2": "Enterprising"
+  }
+]

@@ -1,0 +1,25 @@
+https://www.onetonline.org/explore/interests/Enterprising/Conventional/Social/
+https://www.pathwaysforstudents.org/mt-content/uploads/2017/01/guide-to-holland_codes.pdf
+
+JSON OBJECT FORMAT
+{
+"question": "?",
+"option1": "Realistic",
+"option2": "Artistic"
+},
+
+RIASCE
+Realistic : 25
+Investigative : 36
+Artistic : 38
+Social : 31
+Conventional : 42
+Enterprising : 27
+
+Number of questions: ~95
+
+Pick any 30 questions (no replacement), count the number of letters (RIASCE) for each question.
+
+Whenever calculating the letter scores, 
+Dividend : (count) chosen by the user
+Divisor : total (counted in the beginning)

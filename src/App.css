@@ -1,0 +1,175 @@
+/* Apply a natural box layout model to all elements */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding from all elements */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  text-align: center;
+}
+
+.App {
+  width: 100%;
+  max-width: 480px; /* Set max width for the container */
+  margin: auto;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width if needed */
+  margin: 0 auto; /* Center the container */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.limit-h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.limit-h2 {
+  margin-top: 1rem;
+}
+
+.start-button {
+  padding: 0.8rem 2.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background: #007bff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.start-button:hover {
+  background: #0056b3;
+}
+
+.start-button:active {
+  transform: scale(0.98); /* Slightly shrink the button when pressing */
+}
+
+.back-start-button {
+  padding: 0.8rem 2.5rem;
+  margin: 0 0 0 0;
+  font-size: 1.2rem;
+  color: #fff;
+  background: #28a745;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.back-start-button:hover {
+  background: #218939;
+}
+
+.back-start-button:active {
+  transform: scale(0.98); /* Slightly shrink the button when pressing */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .start-button {
+    width: 100%; /* Make the button full width on smaller screens */
+    padding: 0.8rem 0;
+  }
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.question {
+  margin-bottom: 1rem;
+}
+
+.options button.option {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.options button.selected {
+  background-color: #0056b3;
+  color: white;
+}
+
+.next-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.next-button:hover {
+  background: #218939;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+footer p {
+  color: gray;
+}
+
+footer p span {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0000ee;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50; /* Green color for the progress */
+  transition: width 0.3s ease;
+}
