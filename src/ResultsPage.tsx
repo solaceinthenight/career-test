@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import descSummary from "./data/descSummary.json";
 import Footer from "./Footer";
+import descSummary from "./data/descSummary.json";
 
 const ResultsPage: React.FC = () => {
   const RIASCE = [
@@ -89,7 +89,10 @@ const ResultsPage: React.FC = () => {
       elements.push(
         <>
           <h3 className="description-name"> {desc} </h3>
-          <p className="description-summary"> {descSummary[desc]}</p>
+          <p className="description-summary">
+            {" "}
+            {descSummary[desc as keyof typeof descSummary]}
+          </p>
         </>
       );
     }

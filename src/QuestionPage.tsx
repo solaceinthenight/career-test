@@ -5,11 +5,32 @@ import "./App.css";
 import questionsData from "./data/questions.json";
 import Footer from "./Footer";
 
+type Question = {
+  id: number;
+  question: string;
+  option1: string;
+  option2: string;
+};
+
+const createQuestion = (json: {
+  id: number;
+  question: string;
+  option1: string;
+  option2: string;
+}): Question => {
+  return {
+    id: json.id,
+    question: json.question,
+    option1: json.option1,
+    option2: json.option2,
+  };
+};
+
 const QuestionPage: React.FC = () => {
   const TOTAL_QUESTIONS = 25;
   const navigate = useNavigate();
-  const [questions, setQuestions] = useState(questionsData);
-  const [currentQuestion, setCurrentQuestion] = useState(null);
+  const [questions, setQuestions] = useState<Question[]>(questionsData);
+  const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
   const [selectedOption, setSelectedOption] = useState("");
   const [questionsAnswered, setQuestionsAnswered] = useState(1);
   const [counts, setCounts] = useState({
@@ -37,7 +58,8 @@ const QuestionPage: React.FC = () => {
       });
     } else if (questions.length > 0) {
       const randomIndex = Math.floor(Math.random() * questions.length);
-      setCurrentQuestion(questions[randomIndex]);
+      const question: Question = createQuestion(questions[randomIndex]);
+      setCurrentQuestion(question);
       setSelectedOption("");
       console.log(Object.prototype.toString.call(questions));
     }
@@ -48,6 +70,7 @@ const QuestionPage: React.FC = () => {
   };
 
   const handleNextClick = () => {
+    if (currentQuestion == null) return;
     if (selectedOption) {
       let selected = "";
       if (selectedOption == "option1") {
@@ -58,15 +81,20 @@ const QuestionPage: React.FC = () => {
 
       setSelectedCounts((prevCounts) => ({
         ...prevCounts,
-        [`count${selected}`]: prevCounts[`count${selected}`] + 1,
+        [`count${selected}`]:
+          prevCounts[`count${selected}` as keyof typeof prevCounts] + 1,
       }));
 
       setCounts((prevCounts) => ({
         ...prevCounts,
         [`count${currentQuestion.option1}`]:
-          prevCounts[`count${currentQuestion.option1}`] + 1,
+          prevCounts[
+            `count${currentQuestion.option1}` as keyof typeof prevCounts
+          ] + 1,
         [`count${currentQuestion.option2}`]:
-          prevCounts[`count${currentQuestion.option2}`] + 1,
+          prevCounts[
+            `count${currentQuestion.option2}` as keyof typeof prevCounts
+          ] + 1,
       }));
 
       console.log(counts);
