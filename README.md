@@ -8,11 +8,11 @@ A Career Test based on RIASEC model created by Dr. John Holland, thus named the 
 
 Visit the website (linked above), and click "START".
 
-![](readmepng\start.png)
+![](readmepng/start.png)
 
 The current configuration will pull 25 randomized questions from a question bank. Please select "Option 1" or "Option 2" to answer the question, then select "NEXT".
 
-![](readmepng\question.png)
+![](readmepng/question.png)
 
 For example,
 
@@ -24,11 +24,11 @@ Option 2: Research or extensive writing
 
 If you fail to select an option before clicking "NEXT", you will be notified.
 
-![](readmepng\notify.png)
+![](readmepng/notify.png)
 
 After you complete the test, you will be redirected to a results page with your Holland Code.
 
-![](readmepng\result.png)
+![](readmepng/result.png)
 
-"See Occupations": Redirects you to O\*NET OnLine, a job finder that matches your interests (Holland code) to a career that suits you.
+"See Occupations": Redirects you to O\*NET OnLine, a job finder that matches your interests (Holland code) to a career that suits you. \
 "Back To Start": Redirects you to the start page (resetting your previous Holland code).
